@@ -1,0 +1,21 @@
+@startuml
+start
+
+:Enter Login Credentials;
+if (Valid?) then (yes)
+  :Display Dashboard;
+
+  :Enter Color Name;
+  :Click Add Color;
+  :Save Color to Database;
+
+  :Enter Search Term;
+  :Query Database;
+  :Display Results;
+
+else (no)
+  :Show Error Message;
+endif
+
+stop
+@enduml
