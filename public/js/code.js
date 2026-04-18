@@ -183,3 +183,9 @@ function searchColor()
 	}
 	
 }
+
+function cleanColorInput(color) {
+  return color.trim().toLowerCase();
+}
+
+module.exports = { cleanColorInput };
