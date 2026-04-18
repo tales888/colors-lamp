@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/tales888/colors-lamp#readme",
   "devDependencies": {
-    "eslint": "^10.2.0",
+    "eslint": "^8.57.1",
     "htmlhint": "^1.9.2",
     "jest": "^30.3.0",
     "stylelint": "^17.6.0",
